@@ -509,6 +509,12 @@ section {
   margin-bottom: 0;
 }
 
+.banner {
+width: 40rem;
+height: 40rem;
+
+}
+
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
@@ -546,6 +552,13 @@ section {
 
 .about .content p:last-child {
   margin-bottom: 0;
+}
+
+#about-me-image {
+  margin-top: 4rem;
+  height: 10rem;
+  width: 25rem;
+
 }
 
 /*--------------------------------------------------------------
