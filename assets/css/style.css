@@ -62,7 +62,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   padding: 20px 0;
-  background: #242586;
+  background: #083069;
 }
 
 #header.header-scrolled, #header.header-inner-pages {
@@ -344,8 +344,8 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: #242582;
-  border-bottom: 2px #242582;
+  background: #083069;
+  border-bottom: 2px #083069;
 }
 
 #hero .container {
@@ -476,7 +476,7 @@ section {
 }
 
 .section-bg {
-  background-color: #084683;
+  background-color: #fff;
 }
 
 .section-title {
@@ -578,7 +578,7 @@ height: 40rem;
   display: block;
   font-size: 28px;
   font-weight: 700;
-  color: #b9b9fa;
+  color: #fff;
 }
 
 .why-us .box h4 {
@@ -618,7 +618,7 @@ height: 40rem;
   width: 100%;
   position: relative;
   text-align: center;
-  background: #242582;
+  background: #083069;
 }
 
 .counts .count-box i {
@@ -637,7 +637,7 @@ height: 40rem;
   font-size: 36px;
   display: block;
   font-weight: 600;
-  color: #F64C72;
+  color: #fff;
 }
 
 .counts .count-box p {
