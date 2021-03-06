@@ -1083,10 +1083,12 @@ height: 40rem;
 /* Style the back side */
 .flip-card-back {
   /*background-color: dodgerblue;*/
-  background-color: #fff;
+  background-color: black;
   /*color: dodgerblue;*/
   color: #5A5AF3;
+  /*overflow: hidden;*/
   overflow: auto;
+  scrollbar-color: dark;
   transform: rotateY(180deg);
   font-family: Verdana, Helvetica, sans-serif;
 }
@@ -1103,11 +1105,12 @@ height: 40rem;
   font-weight: 700;
   margin-top: 35px;
   font-size: 30px;
-  color: #434175;
+  /*color: #434175;*/
+  color: white;
 }
 
 .flip-card-back p {
-  color: black;
+  color: white;
   margin-top: 30px;
   font-size: 15px;
   margin-left: 14px;
@@ -1120,6 +1123,10 @@ height: 40rem;
   font-size: 18px;
   color: #434175;
   margin-top: 35px;
+}
+
+::-webkit-scrollbar {
+    display: none;
 }
 
 
