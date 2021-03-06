@@ -1083,7 +1083,7 @@ height: 40rem;
 /* Style the back side */
 .flip-card-back {
   /*background-color: dodgerblue;*/
-  background-color: black;
+  background-color: #083069;
   /*color: dodgerblue;*/
   color: #5A5AF3;
   /*overflow: hidden;*/
@@ -1115,6 +1115,8 @@ height: 40rem;
   font-size: 15px;
   margin-left: 14px;
   margin-right: 14px;
+  text-align: justify;
+  text-justify: inter-word;
 }
 
 .flip-card-front h4 {
