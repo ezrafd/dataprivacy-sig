@@ -654,6 +654,12 @@ height: 40rem;
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .col-xl-7{
+  margin: 0 auto;
+  /*padding: 20px;*/
+}
+
+
 .services .icon-box {
   text-align: center;
   padding: 70px 20px 80px 20px;
