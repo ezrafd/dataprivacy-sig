@@ -18,7 +18,7 @@ a {
 }
 
 a:hover {
-  color: #99738E;
+  color: #083069;
   text-decoration: none;
 }
 
@@ -562,6 +562,11 @@ height: 40rem;
   height: 30rem;
   width: 30rem;
 
+}
+
+.about .content a:hover {
+  color: #5a5af3;
+  text-decoration: none;
 }
 
 /*--------------------------------------------------------------
@@ -1269,6 +1274,14 @@ height: 40rem;
   padding: 60px 0;
 }
 
+.faq .faq-list p a {
+  color: #083069;
+}
+
+.faq .faq-list p a:hover {
+  color: #f64C72;
+}
+
 .faq .faq-list {
   padding: 0 100px;
   list-style: none;
@@ -1279,10 +1292,8 @@ height: 40rem;
 }
 
 .faq .faq-list a {
-  display: block;
   position: relative;
   font-family: #5a5af3;
-  font-size: 18px;
   font-weight: 500;
 }
 
@@ -1307,7 +1318,7 @@ height: 40rem;
 }
 
 .faq .faq-list a.collapsed:hover {
-  color: #5a5af3;
+  color: #083069;
 }
 
 .faq .faq-list a.collapsed i::before {
